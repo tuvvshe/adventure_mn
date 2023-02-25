@@ -1,0 +1,35 @@
+name = input("Neree bicne uu!: ")
+print("Tawtai moril", name, "ene aylald !")
+
+answer = input("Chi shoroon zam deer bn ene zam barag duusaj bgaa bugood tugusguld in chi baruun eswel zuun gesen 2iin ali negiig n songono. Chi ali zamiig n songoh we? ").lower()
+
+if answer == "zuun":
+    answer = input ("chi goliin ereg deer irlee. Chi goliig toirch alhah uu eswel seleed garah uu Toirch alhah bol alhah harin seleed garah bol seleh gj bichne uu!")
+
+    if answer == "seleh":
+        print("chi goloor selej garch baihdaa matrand iduulsen.")
+    elif answer == "alhah":
+        print("chi mash hol gazar alhasaar alhasaar usguidej uhsen bgaa.")
+    else:
+        print('tohirson songolt bish uchir chi gazar deeree nam buuduulan uhlee.')
+
+elif answer == "baruun":
+    answer = input("Chi guuren deer irlee chi ene guuriig dawaj garah uu swel butsaad yawah uu? butsah/dawah. jich ene guur n duujin guur buguud ih huuchnii.")
+
+    if answer == "butsah":
+        print("Chi butsaj yawaad gazar deeree nam buuduulan uhlee.")
+    elif answer == "dawah":
+        answer = input("Chi guuriig amjilttai dawaj chadsn ch gelee guurnii tsaana garsnaa negen tanihgui huntei taarlaa ter huntei yrih uu? tiim/ugui?")
+
+        if answer == "tiim":
+            print("Chi tanihgui huntei yriltsanaar ene togloomond yallj bn uchir n ter hun chamd ih hemjeenii mungo ugloo.")
+        elif answer == "ugui":
+            print("Chi tanihgui bayn huniig ul toosnoor ter chmam muu sanaj chi uhlee.")
+        else:
+            print('tohirson songolt bish uchir chi gazar deeree nam buuduulan uhlee.')
+    else:
+            print('tohirson songolt bish uchir chi gazar deeree nam buuduulan uhlee.')
+else:
+            print('tohirson songolt bish uchir chi gazar deeree nam buuduulan uhlee.')
+
+print("ene togloomiig togloh gj uzsen bayrlalallalala bayrtai", name)
